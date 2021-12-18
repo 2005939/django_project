@@ -13,7 +13,7 @@
 
 {% block content %}
 {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'bookmark/style.css' %}">
 {{object.site_name}}</br>
 {{object.url}}
 <br><br><td><a href="{% url 'bookmark:update' pk=bookmark.id %}" class="btn btn-success btn-sm">Modify</a></td>
