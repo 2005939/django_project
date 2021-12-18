@@ -1,0 +1,22 @@
+body {
+    background: white url("images/background.png")no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 500px;
+    text-align: center;
+}
+
+title{
+    color: red;
+}
+
+li a {
+    color:#223C6F;
+}
+
+.btn1 {
+    color: #6A84B7;
+    text-decoration: underline;
+}
+
+

@@ -1,0 +1,12 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<h1>New Post</h1>
+<form method="POST" class="post-form">
+
+    {% csrf_token %}
+              <a class="btn btn-default" href="{% url 'post_delete' pk=post.pk %}">
+                <span class="glyphicon glyphicon-remove"></span>
+            </a>
+    </form>
+{% endblock %}

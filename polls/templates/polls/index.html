@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Polls Add
+{% endblock %}
+
+{% block content %}
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
+    {% if latest_question_list %}
+        {% for question in latest_question_list %}
+            <li><a href="{% url 'polls:detail' question.id %}">{{question.question_text}}</a></li>
+        {% endfor %}
+    <a class="btn1" href="{% url 'polls:allresults' %}">모든 설문 결과 보기</a>
+
+    {% else %}
+    <p>No polls are avilable.</p>
+    {% endif %}
+
+{% endblock %}
