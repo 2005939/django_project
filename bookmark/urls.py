@@ -1,6 +1,7 @@
 from django.urls import path
 from .views import BookmarkListView, BookmarkCreateView, BookmarkDetailView, BookmarkUpdateView, BookmarkDeleteView
 
+
 app_name = 'bookmark'
 
 urlpatterns = [

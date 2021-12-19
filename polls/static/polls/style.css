@@ -13,7 +13,9 @@ title{
 li a {
     color:#223C6F;
 }
-
+.btn0{
+    color: #6A84B7;
+}
 .btn1 {
     color: #6A84B7;
     text-decoration: underline;
@@ -21,5 +23,12 @@ li a {
 
 .table {
     color: #223C6F;
+}
+
+.btn0{
+    border:solid 2px white;
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
 }
 
