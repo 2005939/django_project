@@ -6,7 +6,7 @@
 
     {% csrf_token %}
               <a class="btn btn-default" href="{% url 'post_delete' pk=post.pk %}">
-                <span class="glyphicon glyphicon-remove"></span>
+                <button type="submit" class="save btn btn-default">Remove</button>
             </a>
     </form>
 {% endblock %}
