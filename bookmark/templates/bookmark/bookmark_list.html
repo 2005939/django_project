@@ -5,8 +5,8 @@ bookmark
 {% endblock %}
 
 {% block content %}
-    {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'bookmark/style.css' %}">
+{% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
 <div class = "btn-group">
     <a href="{% url 'bookmark:add' %}" class="btn btn-info">Add Bookmark</a>
 </div>

@@ -8,7 +8,7 @@ h1 a {
     background-color: #B5C1DB;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
-     border-style: solid;
+    border-style: solid;
     border-width:5px;
     border-color:#C3C3C3;
 }
@@ -34,7 +34,7 @@ h1 a {
 .post{
     margin-bottom:70px;
 }
-.post h1 a, .post h1 a:visited{color:#000000;}
+
 
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
@@ -44,20 +44,7 @@ h1, h2, h3, h4 {
     color: #828282;
 }
 
-.save{
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    float: right;
-    vertical-align: middle;
-    cursor: pointer;
-    white-space: nowrap;
-    border-radius: 4px;
-    border: 1px solid lightgray;
-}
+
 
 .post-form textarea, .post-form input {
     width: 100%;
@@ -69,7 +56,12 @@ h1, h2, h3, h4 {
     font-size: 26pt;
     margin-right: 20px;
 }
-
+.btn2{
+background-color:lightgray;
+width:60px;
+border: solid 1px gray;
+border-radius:3px;
+}
 .post {
     margin-bottom: 70px;
 }
@@ -78,9 +70,9 @@ h1, h2, h3, h4 {
     color: #344E81;
 }
 
-.post a, .post a:visited {
+.post a:visited {
     color: #6A84B7;
-    text-decoration: underline;
+
 }
 
 .nav-item active{
@@ -105,7 +97,7 @@ body {
 }
 .btn {
     color: #6A84B7;
-    text-decoration: underline;
+
 }
 
 .glyphicon-pencil:before {
@@ -116,7 +108,7 @@ content: "\270f";
 
 
 .glyphicon-plus:before {
-width:35px;
+width:50px;
 height:35px;
 content: "\2b";
 }
