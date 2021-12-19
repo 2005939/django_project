@@ -96,7 +96,7 @@ h1, h2, h3, h4 {
 }
 
 body {
-    background: url("images/background.png");
+    background: url("images/background.png"), no-repeat;
     background-size: auto;
     height: 500px;
 }
