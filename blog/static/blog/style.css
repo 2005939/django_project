@@ -84,11 +84,11 @@ h1, h2, h3, h4 {
 }
 
 .nav-item active{
-    padding: 8px 8px 8px 8px;
+    padding: 8px;
 }
 
 .navbar {
-    margin: 0px 0px 0px 0px;
+    margin:0px;
 }
 
 .container {
@@ -101,11 +101,22 @@ body {
     height: 500px;
 }
 .comment {
-    border: 10px double #BDBDBD;
-    border-width:5px;
-    border-color:#C3C3C3;
+    border: 5px double #C3C3C3;
 }
 .btn {
     color: #6A84B7;
     text-decoration: underline;
+}
+
+.glyphicon-pencil:before {
+width:14px;
+height:14px;
+content: "\270f";
+}
+
+
+.glyphicon-plus:before {
+width:35px;
+height:35px;
+content: "\2b";
 }
